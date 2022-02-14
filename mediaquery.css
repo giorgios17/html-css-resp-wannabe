@@ -4,10 +4,12 @@
 @media screen and (max-width: 420px) {
 
     body{
-        font-size: 1.5rem;
+        font-size: 0.7rem;
+        margin: 0;
     }
 
     .row{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,5 +25,32 @@
     #steps .row>.central,
     #steps .row>.right {
      width: 100%;
-}
 
+     
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+    margin-top: 10px;
+    }
+
+
+    #why, #lezioni{
+        background-color: #f2f2cd;
+    }
+
+    #lezioni .row img,
+    #steps .row img {
+        width: 30%;
+        height: 100%;
+    }
+
+    #why .row img{
+        width: 20%;
+        height: 100%;
+        padding: 20px;
+    }
+
+
+}
